@@ -9,6 +9,7 @@
 
 body{
   margin:0px;
+
   font-family: roboto; 
 }
 
@@ -374,12 +375,13 @@ flex: 10%;
 }
 
 
-.work_box1_title{
+.work_box1_title {
   padding-top: 20px;
   font-size: 20px;
   font-weight: bold;letter-spacing: 1.3;
   margin-bottom: 20px;
   color:#063767;
+
 
 }
 
