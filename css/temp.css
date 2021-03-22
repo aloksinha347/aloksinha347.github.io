@@ -298,6 +298,105 @@ width: 50%;
   padding-bottom: 100px;
 }
 
+.work_flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 80px;
+  border-style: 
+
+}
+.work_flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: 30px;
+  border-style: 
+
+}
+
+.work_flex-item-left {
+  background-color: #ffffff;
+  border-radius: 10px; 
+  flex: 45%;
+  border:2px solid #000000;
+  margin-top: 30px;
+}
+
+.work_flex-item-right {
+  background-color: #ffffff;
+  flex: 45%; border:2px solid #000000;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.work_flex-item-middle {
+  background-color: #ffffff;
+ border-radius: 10px; 
+ flex: 45%; border:2px solid #000000;
+  margin-top: 30px;
+}
+
+.work_flex-item-left:hover {
+transform: scale(1.1);
+transition-duration: 500ms;
+background-color: #F2F2F2;
+}
+
+.work_flex-item-right:hover {
+transform: scale(1.1);
+transition-duration: 500ms;
+background-color: #F2F2F2;
+}
+
+.work_flex-item-middle:hover {
+transform: scale(1.1);
+background-color: #F2F2F2;
+transition-duration: 500ms;
+}
+
+
+.work_flex-item-blank{
+flex: 10%;
+}
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+  .work_flex-container {
+    flex-direction: column;
+  }
+}
+
+
+.work_box1_title{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;letter-spacing: 1.3;
+  margin-bottom: 20px;
+  color:#063767;
+
+}
+
+.work_box1_desc
+{
+  padding-right: 20px; 
+  padding-left: 20px;
+  font-size: 16px; letter-spacing: 1.3;line-height: 1.3;
+  padding-bottom: 50px;
+  color:#666666;
+  
+}
+
+.work_box1_icon{
+padding-top: 50px;
+}
+
 .work_help_block{
   background-color: #c9c9c950;
   padding-top: 100px;
@@ -334,12 +433,12 @@ width: 50%;
 }
 
 .work2_flex-item-left:hover {
-transform: scale(1.2);
+transform: scale(1.1);
 transition-duration: 500ms;
 }
 
 .work2_flex-item-right:hover {
-transform: scale(1.2);
+transform: scale(1.1);
 transition-duration: 500ms;
 
 
@@ -366,10 +465,10 @@ flex: 10%;
 }
 
 .work2_box1_title{
-  padding-top: 20px;
+  padding-top: 50px;
   font-size: 24px;
   font-weight: bold;letter-spacing: 1.3;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color:#063767;
 
 }
@@ -379,7 +478,7 @@ flex: 10%;
   padding-right: 30px; 
   padding-left: 30px;
   font-size: 20px; letter-spacing: 1.3;line-height: 1.3;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   color:#666666;
   
 }
